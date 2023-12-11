@@ -10,8 +10,8 @@
         <module name="config-service" />
         <module name="account-service" />
         <module name="customer-service" />
-        <module name="discovery-service" />
         <module name="gateway-service" />
+        <module name="discovery-service" />
       </profile>
     </annotationProcessing>
   </component>

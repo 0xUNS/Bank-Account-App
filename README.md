@@ -13,3 +13,11 @@ Key Features:
 - Spring Cloud OpenFeign
 - Spring Boot Actuator
 - H2 Database
+
+```bash
+# clean and build the maven project
+mvn clean package -DskipTests -f [dir_name]
+
+# build and run containers
+docker compose up -d --build
+```
